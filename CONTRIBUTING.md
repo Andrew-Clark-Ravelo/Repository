@@ -79,6 +79,8 @@ Before submitting a pull request, it is important to run tests and verify that y
 
 4. **Verify changes**: Manually test your changes to ensure they work as expected.
 
+For more detailed instructions, refer to the `CONTRIBUTING.md` file.
+
 By following these guidelines, you can help maintain the quality and stability of the project.
 
 ## Code of Conduct
