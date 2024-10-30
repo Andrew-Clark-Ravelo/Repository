@@ -30,19 +30,60 @@ We welcome contributions to this project. By contributing, you help improve the 
 
 7. **Create a pull request**: Open a pull request to the main repository. Provide a detailed description of your changes and the purpose of the pull request.
 
-## Code of Conduct
+## Detailed Instructions on Creating and Submitting Pull Requests
 
-Please make sure to follow the [code of conduct](CODE_OF_CONDUCT.md) when contributing to the project. We expect all contributors to adhere to the code of conduct to ensure a positive and inclusive environment for everyone.
+1. **Ensure your branch is up to date**: Before creating a pull request, make sure your branch is up to date with the main branch:
+   ```sh
+   git checkout main
+   git pull origin main
+   git checkout your-feature-branch
+   git rebase main
+   ```
 
-## Coding Standards
+2. **Resolve conflicts**: If there are any conflicts, resolve them before proceeding.
 
-To maintain consistency and readability in the codebase, please adhere to the following coding standards:
+3. **Create a pull request**: Navigate to the main repository on GitHub and click the "New pull request" button. Select your branch and provide a detailed description of your changes.
+
+4. **Review and discuss**: Engage in the review process by addressing any comments or feedback provided by the maintainers.
+
+5. **Merge the pull request**: Once your pull request is approved, it will be merged into the main branch.
+
+## Coding Standards and Best Practices
+
+To maintain consistency and readability in the codebase, please adhere to the following coding standards and best practices:
 
 - Follow the project's existing coding style and conventions.
 - Write clear and concise code with appropriate comments.
 - Ensure that your code is properly formatted and indented.
 - Write unit tests and integration tests to verify the functionality of your changes.
 - Run the existing tests to ensure that your changes do not introduce any regressions.
+- Use meaningful variable and function names.
+- Avoid code duplication and strive for modularity.
+- Handle errors and exceptions gracefully.
+
+## Running Tests and Verifying Changes
+
+Before submitting a pull request, it is important to run tests and verify that your changes do not introduce any issues. Follow these steps to run tests and verify your changes:
+
+1. **Install dependencies**: Ensure that all project dependencies are installed:
+   ```sh
+   npm install
+   ```
+
+2. **Run tests**: Execute the test suite to verify the functionality of your changes:
+   ```sh
+   npm test
+   ```
+
+3. **Check test coverage**: Review the test coverage report to ensure that your changes are adequately tested.
+
+4. **Verify changes**: Manually test your changes to ensure they work as expected.
+
+By following these guidelines, you can help maintain the quality and stability of the project.
+
+## Code of Conduct
+
+Please make sure to follow the [code of conduct](CODE_OF_CONDUCT.md) when contributing to the project. We expect all contributors to adhere to the code of conduct to ensure a positive and inclusive environment for everyone.
 
 ## Issue Reporting
 
